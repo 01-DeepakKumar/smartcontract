@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "rollNumbers",
+						"type": "uint256[]"
+					}
+				],
+				"name": "checkCoprime",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/DAY4/p2.sol": "CoprimeChecker"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/DAY4/p2.sol": {
+			"keccak256": "0xaa8077d31ec3ab84cdd79df05c4a86e52154725c49d78933632d239057cde545",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://175179b1803cf9d122c73cbf85c0014cc473cec8e93604f0deca1d3a021340dd",
+				"dweb:/ipfs/QmcEfm1WW78u9mSebgUU94w2pDHq18SGjaGY76p3k1385J"
+			]
+		}
+	},
+	"version": 1
+}
