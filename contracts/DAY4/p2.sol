@@ -1,38 +1,61 @@
-// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
 
-contract CoprimeChecker {
+pragma solidity >=0.8.2 <0.9.0;
+
+    
+   
+
+contract coprime {
+    uint public num1;
+    uint public num2;
+    uint[] public arr; 
+   
+
+  
+    function get(uint n1, uint n2) public {
+        num1 = n1;
+        num2 = n2;
+    }
 
    
-    function gcd(uint a, uint b) private pure returns (uint) {
+    function checkcoprime(uint n1, uint n2) public pure returns (bool) {
+        uint a = n1;
+        uint b = n2;
+    
+        
+        if (a > b) {
+            (a, b) = (b, a); 
+        }
+        
+        
         while (b != 0) {
             uint temp = b;
             b = a % b;
             a = temp;
         }
-        return a;
+       
+        return a == 1;
     }
 
-    
-    function checkCoprime(uint[] memory rollNumbers) public pure returns (string memory) {
-        uint len = rollNumbers.length;
+   
+    function checkRange(uint start, uint end) public {
+      
+        delete arr;
+         //delete arr1;
+
         
-        // Iterate through each pair of roll numbers in the list
-        for (uint i = 0; i < len; i++) {
-            for (uint j = i + 1; j < len; j++) {
-                uint num1 = rollNumbers[i];
-                uint num2 = rollNumbers[j];
-                
+        for (uint i = start; i < end; i++) {
+            for (uint j = i + 1; j <= end; j++) {
                
-                uint commonDivisor = gcd(num1, num2);
-                
-               
-                if (commonDivisor != 1) {
-                    return "Not All Numbers Are Coprime"; 
-                }
+                if (checkcoprime(i, j)) {
+                    arr.push(i); 
+                    arr.push(j); 
+                } 
             }
         }
-        
-        return "All Numbers Are Coprime"; 
+    }
+
+
+    function getArray() public view returns (uint[] memory) {
+        return arr;
     }
 }
