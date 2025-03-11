@@ -1,0 +1,140 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "n",
+						"type": "uint256"
+					}
+				],
+				"name": "testFactorial",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "n",
+						"type": "uint256"
+					}
+				],
+				"name": "testFibonacci",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "number",
+						"type": "uint256"
+					}
+				],
+				"name": "testIsArmstrong",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "testMaxMin",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "maxNum",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "minNum",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/DAY07/MathTest.sol": "MathTest"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/DAY07/MathLibrary.sol": {
+			"keccak256": "0x1990b96015f11583659680718b7640072293865a4de53d41b78328505534eba8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://77fd8a8e468c9f97a56e04ba208ddf698acd964bcafbfaf0e8bad363766d3b3d",
+				"dweb:/ipfs/QmQZqMzKrqk7BckW5x2io5cxrgcyiUbhDtJQzDsewjeuAe"
+			]
+		},
+		"contracts/DAY07/MathTest.sol": {
+			"keccak256": "0x3c2486840a30de258ba45463b935d3ee24f714b6218de3b38fda416746a490ee",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6c03cc5a883690881ae904d4ad7a71258940105a35c5aab6d75a16cf14646a8f",
+				"dweb:/ipfs/QmZ9z3GvBe2a2rRviSfVkNfTZ8CjHf3KKMR6SBS7ee5MXT"
+			]
+		}
+	},
+	"version": 1
+}

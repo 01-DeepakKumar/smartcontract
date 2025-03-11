@@ -175,11 +175,11 @@
 	},
 	"sources": {
 		"contracts/day6/p3.sol": {
-			"keccak256": "0xd2449061aa6803f45739d34533a0adf088d544ae852e6c384c84376b9c5efed9",
+			"keccak256": "0x229da7fe9141ee45aa38a724df6aaf958f251a24cb9302f8b9b4a9a685f06e8b",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://fde1b58c9d6404b079b8cfbb4137dc4b68f3c55e8f9f90ed8b7d7fe2afa05c61",
-				"dweb:/ipfs/QmTw8w7Bsr1RvCacptyqidY3EEUiyBFi1XTEhrP68DSaG5"
+				"bzz-raw://1ab0f346c02a9d2936750d5e69b3d105cf54ba3a951119f3cc59d77ad8cd1d7e",
+				"dweb:/ipfs/QmZh12f4j17n6gkvcA7ZpowTY2YUqXzZVsnK8QeXCXVXgp"
 			]
 		}
 	},

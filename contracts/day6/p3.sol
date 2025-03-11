@@ -8,7 +8,7 @@ contract Vehicle {
     uint public year;
     string public fuelType;
 
-    // Constructor to initialize the base properties
+ 
     constructor(string memory _make, string memory _model, uint _year, string memory _fuelType) {
         make = _make;
         model = _model;
@@ -19,7 +19,7 @@ contract Vehicle {
     
     function fuelEfficiency() public pure virtual returns (uint) {
         // Return some default efficiency value
-        return 15; // Assume 15 km/l for all vehicles by default
+        return 15;
     }
 
 
@@ -64,7 +64,6 @@ contract Car is Vehicle {
         numDoors = _numDoors;
     }
 
-    // Overriding fuel efficiency specific to cars
     function fuelEfficiency() public pure override returns (uint) {
         return 15; // Cars typically have higher fuel efficiency, e.g., 15 km/l
     }
