@@ -1,0 +1,200 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_deptName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_deptHead",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_studentName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_regdNo",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_electiveSubject",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_avgMarks",
+						"type": "uint256"
+					}
+				],
+				"name": "admitNewStudent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_regdNo",
+						"type": "string"
+					}
+				],
+				"name": "displayStudentDetails",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "studentName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "regdNo",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "electiveSubject",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "avgMarks",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "deptName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "deptHead",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "hostelName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "hostelLocation",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "numberOfRooms",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_regdNo",
+						"type": "string"
+					}
+				],
+				"name": "migrateStudent",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "studentAddresses",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "students",
+				"outputs": [
+					{
+						"internalType": "contract Student",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/lastday/p1.sol": "StudentManagement"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/lastday/p1.sol": {
+			"keccak256": "0x4b96d430471de2242b40d13d54366add4f4b3ea3ea2adbeb8b01f5c1432f67c2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8c8ddaa9ee1ec54913e2a7b60d2d06e356ab16d4c19e1f6d4272c665247adbbe",
+				"dweb:/ipfs/QmTsAkC93vdWkC7qNkhCGwF5AzyjcWFS5hAMiCbr1ZPmEm"
+			]
+		}
+	},
+	"version": 1
+}
