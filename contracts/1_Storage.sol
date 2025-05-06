@@ -27,3 +27,4 @@ contract Storage {
         return number;
     }
 }
+https://gist.github.com/01-DeepakKumar/2e2510cbd2975cd2dbd67176782ed49e.js
